@@ -7,27 +7,28 @@ export default function Home() {
       id: 'classic',
       name: 'Classic',
       description: 'Perfect starter model for beginners. Creates beautiful ambient light patterns with simple geometric designs.',
-      specs: 'Dimensions: 80mm × 80mm × 120mm',
-      downloadUrl: '/downloads/classic-model.stl',
-      imageQuery: '3D printed geometric light projection sculpture with ambient glow',
+      specs: 'Dimensions: 25mm × 22mm × 46mm',
+      downloadUrl: '/downloads/Basic_project.stl',
+      // use static image files in public/ (reversed order)
+      imageQuery: '/3.jfif',
       accentColor: 'cyan'
     },
     {
       id: 'prism',
       name: 'Prism',
       description: 'Advanced design featuring multiple facets for complex light refraction and dynamic shadow play.',
-      specs: 'Dimensions: 100mm × 100mm × 150mm',
-      downloadUrl: '/downloads/prism-model.stl',
-      imageQuery: '3D printed prism light projection art with colorful refraction',
+      specs: 'Dimensions: 36mm × 36mm × 32mm',
+      downloadUrl: '/downloads/prism.stl',
+      imageQuery: '/2.jfif',
       accentColor: 'magenta'
     },
     {
       id: 'constellation',
-      name: 'Constellation',
+      name: 'Christmas Snowman',
       description: 'Premium model with intricate star-pattern perforations creating mesmerizing celestial projections.',
-      specs: 'Dimensions: 120mm × 120mm × 180mm',
-      downloadUrl: '/downloads/constellation-model.stl',
-      imageQuery: '3D printed constellation light projection sculpture with star patterns',
+      specs: 'Dimensions: 27mm × 27mm × 57mm',
+      downloadUrl: '/downloads/Snowman_premium.stl',
+      imageQuery: '/1.jfif',
       accentColor: 'purple'
     }
   ]

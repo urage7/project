@@ -528,6 +528,10 @@
     position: relative;
   }
 
+  .static {
+    position: static;
+  }
+
   .inset-0 {
     inset: calc(var(--spacing) * 0);
   }
@@ -784,10 +788,6 @@
 
   .mb-3 {
     margin-bottom: calc(var(--spacing) * 3);
-  }
-
-  .mb-4 {
-    margin-bottom: calc(var(--spacing) * 4);
   }
 
   .mb-8 {
@@ -2051,6 +2051,10 @@
 
   .pb-4 {
     padding-bottom: calc(var(--spacing) * 4);
+  }
+
+  .pb-6 {
+    padding-bottom: calc(var(--spacing) * 6);
   }
 
   .pl-2 {
